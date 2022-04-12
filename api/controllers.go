@@ -1,13 +1,14 @@
 package api
 
 import (
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sundowndev/phoneinfoga/v2/api/errors"
 	"github.com/sundowndev/phoneinfoga/v2/build"
 	"github.com/sundowndev/phoneinfoga/v2/lib/number"
 	"github.com/sundowndev/phoneinfoga/v2/lib/remote"
 	"github.com/sundowndev/phoneinfoga/v2/lib/remote/suppliers"
-	"net/http"
 )
 
 type ScanResultResponse struct {
